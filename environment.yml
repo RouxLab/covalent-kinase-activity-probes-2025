@@ -1,0 +1,14 @@
+name: kw_probes
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - matplotlib=3.9
+  - tqdm=4.66
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - -r requirements.txt  # Install other dependencies through pip
