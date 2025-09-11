@@ -6,11 +6,11 @@ This workflow may be applied to any irreversible ligand with time- or dose-respo
 
 ## Environment
 
-This notebook should work with Python 3.10, 3.11, and 3.12. The packages used are listed in `environment.yml` and `requirements.txt`.
+This notebook is best used with Python 3.12. The packages used are listed in `environment.yml` and `requirements.txt`.
 
 ### Dependencies
 
-- Kinetic Modeling (from the Roux Group)
+- Kinetic modeling (from the Roux Group)
   - `gekim` ([GeKiM](https://github.com/kghaby/GeKiM))
 
 - Numerical analysis
@@ -20,12 +20,12 @@ This notebook should work with Python 3.10, 3.11, and 3.12. The packages used ar
 
 - Utilities
   - `matplotlib`
-  - `dill` (for the MMC data dictionary, which was serialized in Python 3.11)
+  - `dill` (for the MMC data dictionary)
   - `tqdm`
 
 ### Installation
 
-Use the following command in the root of a local clone of this repository to create an environment `kw_probes` for the notebook:
+Use the following command in the root of a local clone of this repository to create an environment `covalent_probe_analysis` (or a name of your choice assigned in `environment.yml`) for the notebook:
 
 ```shell
 conda env create -f environment.yml
@@ -35,7 +35,7 @@ Then,
 
 ```shell
 conda deactivate
-conda activate kw_probes
+conda activate covalent_probe_analysis
 ```
 
 ## References

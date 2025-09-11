@@ -1,11 +1,11 @@
-name: kw_probes
+name: covalent_probe_analysis
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
-  - numpy=1.26
-  - matplotlib=3.9
-  - tqdm=4.66
+  - python=3.12
+  - numpy
+  - matplotlib
+  - tqdm
   - jupyter
   - jupyterlab
   - ipykernel
