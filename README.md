@@ -1,8 +1,8 @@
-# Kinetic Modeling of KW Probes and XO44
+# Kinetic Modeling of Covalent Kinase Probes
 
-The Jupyter notebook in this repository can be used to reproduce the kinetic modeling and analysis of KW50P, KW60P, and XO44 as discussed in [ref. 1][1].
+The Jupyter notebook in this repository can be used to reproduce the kinetic modeling and analysis of the covalent kinase probes as discussed in [ref. 1][1].
 
-This workflow may be applied to any irreversible ligand with time- or dose-response data.
+This workflow may be applied to fit time- or dose-response data of any irreversible ligand.
 
 ## Environment
 
@@ -37,6 +37,9 @@ Then,
 conda deactivate
 conda activate covalent_probe_analysis
 ```
+
+### Contact
+Feel free to open an issue or email kyleghaby@gmail.com with questions about using the workflow.
 
 ## References
 
