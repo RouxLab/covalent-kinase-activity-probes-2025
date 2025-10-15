@@ -37,7 +37,7 @@ Then,
 conda activate covalent_probe_analysis
 ```
 
-### Contact
+## Contact
 Feel free to open an issue or email kyleghaby@gmail.com with questions about using the workflow.
 
 ## References
