@@ -34,7 +34,6 @@ conda env create -f environment.yml
 Then,
 
 ```shell
-conda deactivate
 conda activate covalent_probe_analysis
 ```
 
