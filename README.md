@@ -1,6 +1,6 @@
 # Kinetic Modeling of Covalent Kinase Probes
 
-The Jupyter notebook in this repository can be used to reproduce the kinetic modeling and analysis of the covalent kinase probes as discussed in [ref. 1][1].
+The Jupyter notebook in this repository can be used to reproduce the kinetic modeling and analysis of the covalent kinase probes as discussed in [ref. 1](https://doi.org/10.1021/jacs.5c18691).
 
 This workflow may be applied to fit time- or dose-response data of any irreversible ligand.
 
@@ -42,6 +42,7 @@ Feel free to open an issue or email kyleghaby@gmail.com with questions about usi
 
 ## References
 
-1. Carlos, et al. 2024.
+1. Chakraborty, P.\*; Carlos, A.\*; Thomas, T.\*; Ghaby, K.; Fathi, S.; Sharma, M.; Nguyen, N. K.; Farmwald, M.; Blachowicz, L.; Alcyone, E.; Harter, K.; Yu, S.; Pillai, K. S.; Roux, B.; Moellering, R. E. Molecular Dynamics-Guided Design and Chemoproteomic Profiling of Covalent Kinase Activity Probes. *J. Am. Chem. Soc.* **2026**. DOI: [10.1021/jacs.5c18691](https://doi.org/10.1021/jacs.5c18691)
 
-[1]: https://github.com/kghaby/GeKiM
+\* These authors contributed equally.
+
